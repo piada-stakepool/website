@@ -13,6 +13,7 @@
 
     let teddy = "https://teddyswap.cardano-blockhouse.de/img/teddy-logo.svg";
     let tosi = "https://app.tosidrop.io/static/media/tosidrop-dark.a0c16f6bb65f98d229a5.png";
+    let aaShip = "/images/ship-420.png";
 </script>
 
 <div class="w3-container" id="performance" style="background-color:#4285af;">
@@ -61,6 +62,13 @@
             <p class="teddy w3-xlarge"><a href="https://app.tosidrop.io/cardano/claim" rel="noreferrer" target="_blank">TosiDrop</a> tokens coming soon!</p>
         </div>
     </div>
+    <!-- <div class="w3-row w3-center w3-black w3-round-xlarge" style="padding:84px 0px;margin-bottom:16px;">
+        <div class="w3-col w3-mobile">
+            <a href="https://armada-alliance.com/docs" rel="noreferrer" target="_blank"><img src="{aaShip}" class="w3-image aa-logo" alt="" width="600"></a>
+            <p class="armada w3-xlarge">Learn about Cardano Stakepool Operatons and development using a Raspberry Pi!</p>
+        </div>
+    </div> -->
+    
 
     <!--
     <div class="w3-row w3-center w3-black w3-round-xlarge" style="padding:84px 0px;margin-bottom:16px;">
