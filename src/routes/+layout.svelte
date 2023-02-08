@@ -89,7 +89,6 @@
       <span class="p-p3">&#960; &#43; &#8371; &#61; &#8766;</span>
       <a href="https://twitter.com/eastpiada" rel="noreferrer" target="_blank"><i class="fa-brands fa-twitter w3-hover-opacity p-p3"></i></a>
       <a href="https://t.me/piadapool" rel="noreferrer" target="_blank"><i class="fa-brands fa-telegram w3-hover-opacity p-p3"></i></a>
-      <a href="https://armada-alliance.com/" rel="noreferrer" target="_blank"><img class="w3-hover-opacity" src={aaShip} alt="Armada Alliance Logo" style="height:30px;position:relative;top:-1px;"></a>
     </div>
     <p>PIADA - ARM'ed Cardano Stake Pool &#169; 2023<br />This website is running in Svelte on a Raspberry Pi <span style="color: #e60000;"><i class="fa-solid fa-heart fa-beat" style="padding-left:5px;--fa-animation-duration: 1.5s;"></i></span></p>
     <p><a href="https://stats.uptimerobot.com/lgx2rF184V" rel="noreferrer" target="_blank">Pool UptimeRobot Stats</a> <i class="fa-solid fa-circle fa-beat w3-text-green" style="padding-left:5px;--fa-animation-duration: 1s;"></i></p>
