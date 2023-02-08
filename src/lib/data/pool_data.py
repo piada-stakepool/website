@@ -60,7 +60,7 @@ pool_data = dict(pledge=pledge, total_delegated=total_delegated, number_of_deleg
 # now lets convert the dictionary to a json file
 pool_data_json = json.dumps(pool_data)
 
-repo = "eastpiada/eastpiada.github.io"
+repo = "piada-stakepool/website"
 path = "src/lib/data/poolData.json"
 
 
@@ -70,7 +70,7 @@ update_data = repo.update_file(
     path = path, 
     message = "add new file", 
     content = pool_data_json, 
-    branch = "master",
+    branch = "main",
     sha=sha
 )
 print(update_data)
