@@ -45,7 +45,7 @@ block_count = int(piada_info.block_count[0])
 epoch = int(tip.epoch_no[0])
 delegate_rewards = round((piada_history.deleg_rewards.astype(int) / 1000000).sum())
 ten_epoch_ros = round(piada_history.epoch_ros[0:9].mean(), 2)
-life_time_ros = round(piada_history.epoch_ros.mean(), 2)
+life_time_ros = round(piada_history.epoch_ros[0:-1].mean(), 2)
 
 # lets make the some of the numbers look nice and convert to strings to look like this "80,000" without the ending .0
 pledge = "{:,}".format(pledge)
