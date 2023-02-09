@@ -30,7 +30,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url('/images/3d-rendering-digital-binary-data-microchip-with-glow-circuit-board-background.jpg');
+    background-image: url('/images/top-page-bkg.webp');
     min-height: 100%;
   }
 </style>
