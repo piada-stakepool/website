@@ -1,12 +1,10 @@
 <script>
   import '../app.css';
 	import Delegate from '$lib/Delegate.svelte';
-  //let logoPic = "/images/piada-stake-pool-logo.png";
   let logoPic = "/images/raspberry-dots-small.png";
   let aaShip = "/images/ship-420.png";
-  let staking = "/images/what-is-cardano-staking.jpg";
+  let delegation = "/images/what-is-cardano-staking.jpg";
 
-  // Toggle between showing and hiding the sidebar when clicking the menu icon
   /**
 	 * @type {HTMLElement}
 	 */
@@ -14,7 +12,7 @@
   /**
 	 * @type {HTMLElement}
 	 */
-  let stakingModal;
+  let delegationModal;
 
   function w3_open() {
     if (piadaSidebar.style.display === 'block') {
@@ -30,19 +28,19 @@
     return false;
   }
 
-  function staking_modal() {
-    stakingModal.style.display = "block";
+  function delegation_modal() {
+    delegationModal.style.display = "block";
     return false;
   }
 
-  function staking_modal_mobile() {
-    stakingModal.style.display = "block";
+  function delegation_modal_mobile() {
+    delegationModal.style.display = "block";
     piadaSidebar.style.display = "none";
     return false;
   }
 
-  function staking_modal_close() {
-    stakingModal.style.display = "none";
+  function delegation_modal_close() {
+    delegationModal.style.display = "none";
     return false;
   }
 </script>
@@ -57,15 +55,15 @@
         <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
         <a href="#timeline" class="w3-bar-item w3-button">OUR STORY</a>
         <a href="#spos" class="w3-bar-item w3-button">SPOs</a>
-        <a href="#" class="w3-bar-item w3-button" on:click={staking_modal}>STAKING</a>
+        <a href="#" class="w3-bar-item w3-button" on:click={delegation_modal}>DELEGATION</a>
       </div>
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
   
       <a href="#" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" on:click={w3_open}>
         <i class="fa fa-bars"></i>
       </a>
-      <div class="w3-modal w3-animate-zoom" on:click={staking_modal_close} bind:this={stakingModal}>
-        <img class="w3-modal-content w3-grayscale-max w3-round w3-mobile" src={staking}>
+      <div class="w3-modal w3-animate-zoom" on:click={delegation_modal_close} bind:this={delegationModal}>
+        <img class="w3-modal-content w3-grayscale-max w3-round w3-mobile" src={delegation}>
       </div>
     </div>
 </div>
@@ -77,7 +75,7 @@
     <a href="#about" on:click={w3_close} class="w3-bar-item w3-button">ABOUT US</a>
     <a href="#timeline" on:click={w3_close} class="w3-bar-item w3-button">OUR STORY</a>
     <a href="#spos" on:click={w3_close} class="w3-bar-item w3-button">SPOs</a>
-    <a href="#" class="w3-bar-item w3-button" on:click={staking_modal_mobile}>STAKING</a>
+    <a href="#" class="w3-bar-item w3-button" on:click={delegation_modal_mobile}>DELEGATION</a>
 </nav>
 
 <slot />
