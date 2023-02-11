@@ -32,7 +32,7 @@
         </div>
         <div class="w3-col l2 m12 w3-mobile w3-padding-32 w3-large">
             <span class="w3-xxlarge">{perfData.life_time_ros}%</span><br>
-            Lifetime Return on Stake
+            Lifetime Return on Delegation
         </div>
         <div class="w3-col l2 m12 w3-mobile w3-padding-32 w3-large">
             <span class="w3-xxlarge">{perfData.pool_fee}%</span><br>
