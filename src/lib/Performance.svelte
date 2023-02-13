@@ -102,8 +102,6 @@
 .w3-col {text-shadow:1px 1px 4px #000;}
 .w3-col .carousel {text-shadow:1px 1px 0 #131522;}
 .carousel-logo {
-    /*max-height: 600px;
-    max-width: 600px;*/
     margin-bottom: 13px;
     padding:10px;
 }
