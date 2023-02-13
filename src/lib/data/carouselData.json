@@ -1,0 +1,30 @@
+[
+    {
+        "imgHref": "https://armada-alliance.com/docs",
+        "imgSrc": "/aa-ship.gif",
+        "imgAlt": "Armada Alliance",
+        "imgWidth": "300",
+        "description": "Learn about Cardano stakepool operations and development using a Raspberry Pi in the <a href='https://armada-alliance.com/' rel='noreferrer' target='_blank'>Armada Alliance</a>"
+    },
+    {
+        "imgHref": "https://teddyswap.org",
+        "imgSrc": "https://fiso.teddyswap.org/teddy-logo.svg",
+        "imgAlt": "TeddySwap FISO",
+        "imgWidth": "600",
+        "description": "Earn $TEDY tokens by delegating to PIADA during the <a href='https://teddyswap.org' rel='noreferrer' target='_blank'>TeddySwap FISO</a> starting at epoch 392"
+    },
+    {
+        "imgHref": "https://adastry.io",
+        "imgSrc": "/images/adastryio.png",
+        "imgAlt": "Adastry.io",
+        "imgWidth": "300",
+        "description": "Delegates to PIADA qualify for free <a href='https://adastry.io' rel='noreferrer' target='_blank'>Adastry.io</a> wallet services after 4 epochs"
+    },
+    {
+        "imgHref": "https://app.tosidrop.io/cardano/claim",
+        "imgSrc": "https://app.tosidrop.io/static/media/tosidrop-dark.a0c16f6bb65f98d229a5.png",
+        "imgAlt": "TosiDrop",
+        "imgWidth": "600",
+        "description": "TosiDrop tokens coming soon!"
+    }
+]

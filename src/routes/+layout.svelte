@@ -63,7 +63,7 @@
         <i class="fa fa-bars"></i>
       </a>
       <div class="w3-modal w3-animate-zoom" on:click={delegation_modal_close} bind:this={delegationModal}>
-        <img class="w3-modal-content w3-grayscale-max w3-round w3-mobile" src={delegation}>
+        <img class="w3-modal-content w3-grayscale-max w3-round w3-mobile" src={delegation} alt="What is Delegation">
       </div>
     </div>
 </div>
