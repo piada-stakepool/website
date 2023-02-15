@@ -10,14 +10,6 @@
       window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);
     }
     
-    function delegateWallet() {
-      var link = 'https://cardano-solutions.com/stake?t=MAc0kKV5gRb3DIMkptPbgWsD1GyYFS&wallet=yoroi,flint,nami,eternl,gerowallet';
-      var width = 800;
-      var height = Math.min(800, window.outerHeight);
-      var left = (window.outerWidth / 2) - (width / 2);
-      var top = (window.outerHeight - height) / 2;
-      window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);
-    }
 </script>
 
 <button type="button" class="w3-button w3-light-grey w3-padding-large w3-large w3-margin-top" on:click={handleDelegate}><i class="fa-solid fa-wallet w3-margin-right"></i>Connect your wallet</button>
