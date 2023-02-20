@@ -19,7 +19,7 @@
 
     <div class="w3-container w3-display-bottomleft w3-xlarge w3-text-white" style="padding:24px 48px">
       <div class="w3-row">
-        <span class="w3-xxlarge p-p3">&#960; &#43; &#8371; &#61; &#8766;</span>
+        <span class="w3-xxlarge p-p3">&#960; &#43; &#8371; &#61; &#8734;</span>
         <a href="https://twitter.com/eastpiada" rel="noreferrer" target="_blank"><i class="fa-brands fa-twitter w3-hover-opacity w3-xxlarge p-p3"></i></a>
         <a href="https://t.me/piadapool" rel="noreferrer" target="_blank"><i class="fa-brands fa-telegram w3-hover-opacity w3-xxlarge p-p3"></i></a>
       </div>

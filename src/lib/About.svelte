@@ -5,13 +5,12 @@
             <i class="fa-regular fa-lightbulb w3-margin-bottom w3-jumbo w3-center"></i>
             <p class="w3-xlarge">Efficient</p>
             <p class="w3-large w3-left-align" style="padding:32px;">Our bare metal stake pool hardware is currently pulling around 55 watts of power. Less than one of those old school light bulbs. 
-                Stable uptime. Gigabit WAN speeds. DDoS protection. VPN security. <a href="" rel="noreferrer" target="_blank">Network monitoring and alerts</a>. Multi-site failover.</p>
+                Stable uptime. Gigabit WAN speeds. DDoS protection. VPN security. <a href="https://stats.uptimerobot.com/lgx2rF184V" rel="noreferrer" target="_blank">Network monitoring and alerts</a>. Multi-site failover. Raspberry Pi 3B USB bootable cold machine.</p>
         </div>
         <div class="w3-half w3-padding-32">
             <i class="fa-solid fa-book-skull w3-margin-bottom w3-jumbo"></i>
             <p class="w3-xlarge">Passionate</p>
-            <p class="w3-large w3-left-align" style="padding:32px;">As Armada Alliance OGs, we love testing new hardware technology and providing Cardano stake pool operators with information on running a stake pool on energy efficient ARM hardware. Decentralization through documentation.
-                We use everything from <a href="https://armada-alliance.com/docs/" rel="noreferrer" target="_blank">Raspberry Pis to Apple M1s and Oracle Ampere Cloud</a>.
+            <p class="w3-large w3-left-align" style="padding:32px;">As Armada Alliance OGs, we love testing new hardware and providing Cardano stake pool operators with information on running a stake pool on energy efficient ARM hardware. We use everything from <a href="https://armada-alliance.com/docs/" rel="noreferrer" target="_blank">Raspberry Pis to Apple M1s and Oracle Ampere Cloud</a>. Decentralization through documentation.
             </p>
         </div>
     </div>
