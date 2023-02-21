@@ -9,7 +9,59 @@
     */
     import perfData from '$lib/data/poolData.json';
     import sliderData from '$lib/data/carouselData.json';
+    import Grid from "gridjs-svelte"
+    import Carousel from "svelte-carousel";
+    import { browser } from '$app/environment';
+
+    /**
+	 * @type {Carousel}
+	 */
+    let carousel; // for calling methods of the carousel instance
+    const handleNextClick = () => {carousel.goToNext()}
+    const data = [perfData]
+    const slides = sliderData
+
 </script>
+
+
+<!-- <Grid
+    data={data}
+	sort
+	search
+	pagination={{ enabled: true, limit: 3 }}
+    columns={[
+        { name: "total_delegated", sort: true },
+        { name: "pledge", sort: true },
+        { name: "block_count", sort: true },
+        { name: "life_time_ros", sort: true },
+        { name: "pool_fee", sort: true },
+        { name: "delegate_rewards", sort: true },
+    ]}
+    style={{
+        table: {
+            border: "1px solid #ccc",
+            "border-collapse": "collapse",
+            "border-spacing": 0,
+            "font-size": "14px",
+            "text-align": "left",
+            width: "100%",
+        },
+        th: {
+            "background-color": "#4285af",
+            color: "#fff",
+            padding: "10px",
+        },
+        td: {
+            padding: "10px",
+            "vertical-align": "top",
+            "border-bottom": "1px solid #ccc",
+        },
+    }}
+/> -->
+
+<!-- <style global> 
+    @import "https://cdn.jsdelivr.net/npm/gridjs/dist/theme/mermaid.min.css";
+</style> -->
 
 <div class="w3-container" id="performance" style="background-color:#4285af;">
     <div class="w3-row w3-center w3-text-white" style="padding:84px 0px">
@@ -39,17 +91,40 @@
         </div>
     </div>
 
-    {#each sliderData as sd}
+
+
+    <!-- OLD SLIDER CODE-->
+    <!-- {#each sliderData as sd}
     <div class="w3-row w3-center w3-black w3-round-xlarge" style="padding:84px 0px;margin-bottom:16px;">
         <div class="w3-col w3-mobile">
             <a href={sd.imgHref} rel="noreferrer" target="_blank"><img src={sd.imgSrc} class="w3-image carousel-logo" alt={sd.imgAlt} width={sd.imgWidth}></a>
             <p class="carousel w3-xlarge w3-text-white">{@html sd.description}</p>
         </div>
     </div>
-    {/each}
-    
+    {/each} -->
 
-    <!--
+{#if browser}
+  <Carousel
+    bind:this={carousel}
+    autoplay
+    autoplayDuration={5000}
+    pauseOnFocus
+    let:loaded >
+    {#each slides as slide, imageIndex (slide)}
+      <div class="w3-row w3-center w3-black w3-round-xlarge" style="padding:84px 0px;margin-bottom:16px;">
+        <div class="w3-col w3-mobile">
+            {#if loaded.includes(imageIndex)}
+            <a href={slide.imgHref} rel="noreferrer" target="_blank"><img src={slide.imgSrc} class="w3-image carousel-logo" alt={slide.imgAlt} width={slide.imgWidth}></a>
+            <p class="carousel w3-xlarge w3-text-white">{@html slide.description}</p>
+            {/if}
+        </div>
+    </div>
+    {/each}
+  </Carousel>
+{/if}
+
+
+<!--
     <div class="w3-row w3-center w3-black w3-round-xlarge" style="padding:84px 0px;margin-bottom:16px;">
         <div class="w3-row-padding w3-center" style="margin-top:84px!important">
             {#await getPoolUptime}
@@ -98,11 +173,11 @@
     -->
 </div>
 
-<style>
+<!-- <style>
 .w3-col {text-shadow:1px 1px 4px #000;}
 .w3-col .carousel {text-shadow:1px 1px 0 #131522;}
 .carousel-logo {
     margin-bottom: 13px;
     padding:10px;
 }
-</style>
+</style> -->
