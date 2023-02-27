@@ -66,7 +66,7 @@
 <div class="w3-container" id="performance" style="background-color:#4285af;">
     <div class="w3-row w3-center w3-text-white" style="padding:84px 0px">
         <div class="w3-col l2 m12 s12 w3-padding-32 w3-large">
-            <span class="w3-xxlarge">{perfData.total_delegated}+</span>&#8371;<br>
+            <span class="w3-xxlarge">{perfData.total_delegated}</span>&#8371;<br>
             Pool Delegation
         </div>
         <div class="w3-col l2 m12 w3-mobile w3-padding-32 w3-large">
