@@ -126,5 +126,21 @@
         "details": "Earn $TEDY tokens by delegating to PIADA",
         "faIcon": "fa-coins",
         "faStyle": "color:#8d6948;"
+    },
+    {
+        "url": "https://forum.cardano.org/t/announcing-the-stake-pools-chosen-for-april-2023/116922",
+        "title": "Cardano Foundation Delegation",
+        "date": "April 2023",
+        "details": "Stepping into AI on Python",
+        "faIcon": "fa-rocket",
+        "faStyle": "color:rgb(72, 127, 255);"
+    },
+    {
+        "url": "https://armada-alliance.com/docs/",
+        "title": "Armada Alliance AI Documentation Bot",
+        "date": "April 2023",
+        "details": "Incorporated a Mendable powered AI Bot for Armada Alliance documentation",
+        "faIcon": "fa-robot",
+        "faStyle": "color:#34925d;"
     }
 ]
