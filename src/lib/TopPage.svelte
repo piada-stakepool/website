@@ -9,7 +9,7 @@
       <h1 class="w3-jumbo w3-hide-small">Delegate with PIADA</h1>
       <h1 class="w3-xxlarge w3-hide-large w3-hide-medium">Delegate with PIADA</h1>
       <h4 class="w3-large">
-        Armada Alliance OGs forging Cardano blockchain rewards on efficient hardware since mainnet epoch 255.
+        Armada Alliance founders forging Cardano blockchain rewards on efficient hardware since mainnet epoch 255.
       </h4>
       <h4 class="w3-large">
         Non-custodial, direct delegation. You always have control of your Cardano assets.
