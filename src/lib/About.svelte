@@ -10,7 +10,7 @@
         <div class="w3-half w3-padding-32">
             <i class="fa-solid fa-book-skull w3-margin-bottom w3-jumbo"></i>
             <p class="w3-xlarge">Passionate</p>
-            <p class="w3-large w3-left-align" style="padding:32px;">As Armada Alliance OGs, we love testing new hardware and providing Cardano stake pool operators with information on running a stake pool on energy efficient ARM hardware. We use everything from <a href="https://armada-alliance.com/docs/" rel="noreferrer" target="_blank">Raspberry Pis to Apple M1s and Oracle Ampere Cloud</a>. Decentralization through documentation.
+            <p class="w3-large w3-left-align" style="padding:32px;">As Armada Alliance founders, we test new hardware and provide Cardano stake pool operators with information on how to run a stake pool using energy efficient ARM hardware. We use everything from <a href="https://armada-alliance.com/docs/" rel="noreferrer" target="_blank">Raspberry Pis to Apple M1s and Oracle Ampere Cloud</a>. Decentralization through documentation.
             </p>
         </div>
     </div>
