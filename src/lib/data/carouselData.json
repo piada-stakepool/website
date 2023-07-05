@@ -25,6 +25,6 @@
         "imgSrc": "https://app.tosidrop.io/static/media/tosidrop-dark.a0c16f6bb65f98d229a5.png",
         "imgAlt": "TosiDrop",
         "imgWidth": "600",
-        "description": "TosiDrop tokens coming soon!"
+        "description": "Claim tokens via <a href='https://app.tosidrop.io/cardano/claim' rel='noreferrer' target='_blank'>TosiDrop</a> by delegating to PIADA"
     }
 ]
