@@ -7,13 +7,6 @@
         "description": "Learn about Cardano stakepool operations and development using a Raspberry Pi in the <a href='https://armada-alliance.com/' rel='noreferrer' target='_blank'>Armada Alliance</a>"
     },
     {
-        "imgHref": "https://teddyswap.org",
-        "imgSrc": "https://fiso.teddyswap.org/teddy-logo.svg",
-        "imgAlt": "TeddySwap FISO",
-        "imgWidth": "600",
-        "description": "Earn $TEDY tokens by delegating to PIADA during the <a href='https://teddyswap.org' rel='noreferrer' target='_blank'>TeddySwap FISO</a> starting at epoch 392"
-    },
-    {
         "imgHref": "https://adastry.io",
         "imgSrc": "/images/adastryio.png",
         "imgAlt": "Adastry.io",
