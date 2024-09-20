@@ -34,6 +34,8 @@ piada = 'pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc'
 
 piada_history = pd.DataFrame(kp.get_pool_history(piada))
 
+piada_history.fillna(0)
+
 piada_info = pd.DataFrame(kp.get_pool_info(piada))
 
 # Need pledge, live stake, live delegators, margin, block count, past 10 epoch ros, epoch_current then put it into a json file
