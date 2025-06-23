@@ -2,7 +2,7 @@ import koios_python
 import json
 import pandas as pd
 from dotenv import load_dotenv
-from github import Github
+from github import Github, GithubException
 load_dotenv()
 import os
 
@@ -17,7 +17,7 @@ g = Github(personal_access_token)
 try:   
     user = g.get_user()
     print(user.name)
-except ApiError as e:
+except GithubException as e:  # Change to GithubException
     print(e)
 
 # create a koios_python instance and set the network
